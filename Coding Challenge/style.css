@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 65%;
+  box-sizing: border-box;
+  padding: 5%;
+  margin: 20px auto;
+  background-color: #00000080;
+  border-radius: 10px;
+}
+
+header{
+  text-align: center;
+}
+
+header .logo{
+  width: 150px;
+}
+
+header > h1{
+  font-size: 20px;
+  color: #17dd00;
+}
+
+nav{
+  background-color: #17dd00;
+  text-align: center;
+  padding: 5px;
+}
+
+nav button{
+  font-size:xx-small
+}
+
+main{
+  color: white;
+}
+
+.scooter{
+  margin: 20px 0;
+  font-size: 10px;
+}
+
+.charge {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.charge.full{
+  background-color: #17dd00;
+  width: 60%;
+}
+
+.charge.medium{
+  background-color: orange;
+  width: 40%;
+}
+
+.charge.low{
+  background-color: red;
+  width: 20%;
+}
